@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Handlee|Pacifico);
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+ 
+.main-title {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 4.2em;
+	color: #000000;
+	text-shadow: 1px 1px 1px gold;
+} 
+
+.drum-kit-wrapper {
+	position: relative;
+	width: 600px;
+	margin: 50px auto 0;
+}
+
+.drum-kit {
+	width: 120%;
+	height: 500px;
+	left:-88px;
+	top:70px;
+	position: relative;
+}
+
+.crash-cymbal {
+	position: absolute;
+	top: 115px;
+    left: 10px;
+	height:100px;
+	width:100px;
+    transform: rotate(-2.2deg) scale(1.5);
+    transition: all ease-in-out .042s;
+}
+
+.hihat-top-cymbal {
+	position: absolute;
+    right:-10px;
+	top:100px;
+	height:100px;
+	width:105px;
+    transform: scale(1.35);
+    z-index: 0;
+    transition: all ease-in-out .002s;
+}
+
+.key {
+	display: inline-block;
+	transition: all ease-in-out .042s;
+	position: absolute;
+	background: #100f0f;
+    font-size: 1.5em;
+    height: 25px;
+    width: 34px;
+    text-align: center;
+    border-radius: 100px;
+    border: 3px solid #aaa;
+    color: gold;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.65);
+    z-index: 2;
+}
+
+.key.kick {
+	top: 450px;
+    right: 290px;
+}
+
+.key.kick2 {
+    top: 450px;
+    right: 330px;
+}
+
+.key.snare {
+	right: 170px;
+    top: 280px;
+}
+.key {
+	right:120px;
+	top:280px;
+}
+.key.tom-high {
+	right: 210px;
+    top: 200px;
+}
+
+.key.tom-mid {
+	left: 180px;
+    top: 200px;
+}
+
+.key.tom-low {
+	top: 300px;
+    left: 123px;
+}
+
+.key.crash {
+	top: 95px;
+    left: -40px;
+}
+
+.key.ride {
+	left: 125px;
+    top: 95px;
+}
+
+.key.hihat-open {
+	right: 60px;
+    top: 150px;
+}
+
+.key.hihat-close {
+	right: -5px;
+    top: 150px;
+}
+
+.playing {
+	transform: scale(1.12);
+}
