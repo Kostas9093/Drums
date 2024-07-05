@@ -29,7 +29,7 @@
 				break;
 			case 75:
 				animateHiHatClosed();
-				break;
+				break;	
 		}
 
 		keyElement.classList.add(playingClass);
